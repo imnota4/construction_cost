@@ -15,16 +15,19 @@
 <div class="inputs">
 
 <label>Cost per Sq Ft ($)</label>
-<input id="costSqFt" type="number" value="300">
+<input id="costSqFt" type="number" value="370">
 
 <label>Sq Ft per Unit</label>
-<input id="sqFtUnit" type="number" value="800">
+<input id="sqFtUnit" type="number" value="225">
 
 <label>Non-Unit Space (%)</label>
-<input id="nonUnit" type="number" value="20">
+<input id="nonUnit" type="number" value="30">
 
 <label>Number of Units</label>
-<input id="units" type="number" value="20">
+<input id="units" type="number" value="5">
+
+<label>Error Margin (%)</label>
+<input id="error" type="number" value="20">
 
 <br><br>
 
@@ -37,7 +40,10 @@
 <h3>Total Building Sq Ft:</h3>
 <p id="totalSqFt">-</p>
 
-<h3>Total Construction Cost:</h3>
+<h3>Base Construction Cost:</h3>
+<p id="baseCost">-</p>
+
+<h3>Construction Cost With Error Margin:</h3>
 <p id="totalCost">-</p>
 
 </div>
@@ -47,4 +53,5 @@
 <script src="script.js"></script>
 
 </body>
+</html>
 </html>
