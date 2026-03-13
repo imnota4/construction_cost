@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Massachusetts Construction Cost Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Residential Construction Cost Calculator</h2>
+
+<div class="inputs">
+
+<label>Cost per Sq Ft ($)</label>
+<input id="costSqFt" type="number" value="300">
+
+<label>Sq Ft per Unit</label>
+<input id="sqFtUnit" type="number" value="800">
+
+<label>Non-Unit Space (%)</label>
+<input id="nonUnit" type="number" value="20">
+
+<label>Number of Units</label>
+<input id="units" type="number" value="20">
+
+<br><br>
+
+<button onclick="calculate()">Calculate Construction Cost</button>
+
+</div>
+
+<div class="result">
+
+<h3>Total Building Sq Ft:</h3>
+<p id="totalSqFt">-</p>
+
+<h3>Total Construction Cost:</h3>
+<p id="totalCost">-</p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
